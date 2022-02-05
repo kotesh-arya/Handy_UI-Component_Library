@@ -15,7 +15,18 @@ header {
     color: var(--white);
     margin: -10px;
 }
+main {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+span {
+    color: var(--secondary-color);
+}
 .header-icon {
     height: 3rem;
     width: 3rem;
@@ -68,18 +79,7 @@ a {
     width: 20%;
 }
 
-main {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
 
-span {
-    color: var(--secondary-color);
-}
 
 .link-buttons {
     padding: 1rem;
