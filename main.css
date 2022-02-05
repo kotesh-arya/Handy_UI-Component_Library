@@ -1,0 +1,90 @@
+@import url("./Color-palette/colors.css");
+
+:root {
+    --main-text-size: 1.5rem;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    color: var(--white);
+    margin: -10px;
+}
+main {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+span {
+    color: var(--secondary-color);
+}
+.header-icon {
+    height: 3rem;
+    width: 3rem;
+}
+
+.main-heading {
+    font-size: 4rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 1.5rem;
+    font-size: var(--main-text-size);
+}
+
+.main-buttons {
+    margin: 2rem;
+}
+
+.link-buttons:hover {
+    background-color: rgba(180, 176, 176, 0.459);
+    transition: 0.2s;
+}
+
+.get-started {
+    border: 2px solid var(--primary-color);
+}
+
+.get-started:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transition: 0.2s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    font-size: 1rem;
+}
+
+.main-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    width: 20%;
+}
+
+
+
+.link-buttons {
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin: 1rem;
+    box-shadow: 1px 3px 6px grey;
+}
