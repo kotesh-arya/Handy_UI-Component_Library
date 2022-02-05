@@ -1,6 +1,6 @@
+@import url("./Color-palette/colors.css");
+
 :root {
-    --primary-color: #202c39;
-    --secondary-color: #283845;
     --main-text-size: 1.5rem;
 }
 
@@ -11,7 +11,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--white);
     margin: -10px;
 }
 
@@ -19,7 +20,6 @@ header {
     height: 3rem;
     width: 3rem;
 }
-
 
 .main-heading {
     font-size: 4rem;
