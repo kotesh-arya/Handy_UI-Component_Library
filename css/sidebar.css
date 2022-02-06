@@ -1,0 +1,41 @@
+@import url(/Color-palette/colors.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 3rem;
+    color: white;
+
+}
+.side-bar{
+    height: 70vh;
+}
+.side-bar a:active {
+    background-color: aqua;
+}
+
+.sidebar-item {
+    padding: 1rem;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+main {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}

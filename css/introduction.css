@@ -1,0 +1,43 @@
+@import url(/Color-palette/colors.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 60%; */
+
+    /* margin-top: 6rem; */
+    /* border: 2px solid red; */
+
+}
+
+main {
+    /* border: 2px solid red; */
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--main-text-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.doc-heading{
+    font-weight: lighter;
+    text-align: left;
+
+}
+p{
+    text-align: justify;
+    color: grey;
+}
+hr {
+    width: 100%;
+    border-top: 1px solid grey;
+    
+}
