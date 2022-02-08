@@ -30,6 +30,6 @@ li {
 }
 .side-bar .link-active{
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white);
     font-weight: 600;
 }
