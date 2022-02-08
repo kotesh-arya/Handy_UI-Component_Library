@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+/* Style-sheets of all individual components goes down here  */
+
+
+
+
+@import url("/Color-palette/colors.css");
+/* ------------------------------------------------------- */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+section {
+    width: 65%;
+    text-align: center;
+    margin: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--main-text-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section-title {
+    font-size: 2rem;
+}
+
+.section-title,
+.article-title {
+    font-weight: bolder;
+    text-align: center;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 3rem 0px 1rem 0px;
+}
+
+.section-subtitle,
+.article-subtitle {
+    text-align: justify;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.typography-section{
+    margin-top: 19rem;
+}
+article{
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    border-top: 1px solid grey;
+}
+.example-div{
+    text-align: left;
+    background-color: grey;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

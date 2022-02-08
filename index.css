@@ -1,20 +1,20 @@
 @import url("./Color-palette/colors.css");
-
-:root {
+@import url("./css/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');:root {
     --main-text-size: 1.5rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     box-sizing: border-box;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--primary-color);
-    color: var(--white);
-    margin: -10px;
-}
 main {
     height: 70vh;
     display: flex;
@@ -27,6 +27,7 @@ main {
 span {
     color: var(--secondary-color);
 }
+
 .header-icon {
     height: 3rem;
     width: 3rem;
@@ -34,6 +35,10 @@ span {
 
 .main-heading {
     font-size: 4rem;
+}
+
+p {
+    color: grey;
 }
 
 a {
@@ -49,7 +54,7 @@ a {
 
 .link-buttons:hover {
     background-color: rgba(180, 176, 176, 0.459);
-    transition: 0.2s;
+    transition: 0.2s ease-in-out;
 }
 
 .get-started {
@@ -59,7 +64,7 @@ a {
 .get-started:hover {
     background-color: var(--primary-color);
     color: white;
-    transition: 0.2s;
+    transition: 0.2s ease-in-out;
 }
 
 .logo {
@@ -67,6 +72,7 @@ a {
     align-items: center;
     padding-left: 3rem;
     font-size: 1rem;
+    font-weight: bolder;
 }
 
 .main-links {
@@ -76,10 +82,7 @@ a {
     font-weight: bolder;
     flex-wrap: wrap;
     font-size: 1.5rem;
-    width: 20%;
 }
-
-
 
 .link-buttons {
     padding: 1rem;
