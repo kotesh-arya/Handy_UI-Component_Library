@@ -3,7 +3,7 @@
 
 
 
-
+@import url("/Components/Alert/alert.css");
 @import url("/Color-palette/colors.css");
 /* ------------------------------------------------------- */
 
@@ -52,10 +52,16 @@ section {
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
-.typography-section{
+
+.typography-section {
     margin-top: 19rem;
 }
-article{
+
+.avatar-section {
+    margin-top: 64rem;
+}
+
+article {
     text-align: center;
 }
 
@@ -63,9 +69,10 @@ hr {
     width: 100%;
     border-top: 1px solid grey;
 }
-.example-div{
+
+.example-div {
     text-align: left;
-    background-color: grey;
+    background-color: var(--example-bg-color);
     width: 50%;
     margin-left: auto;
     margin-right: auto;
