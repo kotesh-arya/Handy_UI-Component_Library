@@ -3,5 +3,12 @@
     --secondary-color: #283845;
     --white:#fff;
     --main-text-size: 1.5rem;
+    --title-bg-color:aliceblue;
     --example-bg-color:rgba(235, 235, 235, 0.986);
+    --example-border:grey;
+    --alert-primary:blue;
+    --alert-error:red;
+    --alert-success:green;
+    --alert-warning:orange;
+
 }
