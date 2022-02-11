@@ -17,42 +17,42 @@
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
-    border: 1px solid grey;
+    border: 1px solid var(--example-border);
     border-radius: 5px;
 }
 
 .alert-primary {
-    background-color: Blue;
+    background-color: var(--alert-primary);
 }
 
 .alert-error {
-    background-color: red;
+    background-color: var(--alert-error);
 }
 
 .alert-success {
-    background-color: green;
+    background-color: var(--alert-success);
 }
 
 .alert-warning {
-    background-color: orange;
+    background-color: var(--alert-warning);
 }
 
 .primary-outline {
-    border: 1px solid Blue;
-    color: blue;
+    border: 1px solid var(--alert-primary);
+    color: var(--alert-primary);
 }
 
 .error-outline {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid var(--alert-error);
+    color: var(--alert-error);
 }
 
 .success-outline {
-    border: 1px solid green;
-    color: green;
+    border: 1px solid var(--alert-success);
+    color: var(--alert-success);
 }
 
 .warning-outline {
-    border: 1px solid orange;
-    color: orange;
+    border: 1px solid var(--alert-warning);
+    color: var(--alert-warning);
 }
