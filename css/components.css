@@ -53,8 +53,11 @@ section {
     font-size: 1.5rem;
 }
 
-.typography-section {
-    margin-top: 19rem;
+.typography-section{
+    margin-top: 25rem;
+}
+.avatar-section{
+    margin-top: 95rem;
 }
 
 .avatar-section {
@@ -70,10 +73,14 @@ hr {
     border-top: 1px solid grey;
 }
 
-.example-div {
-    text-align: left;
-    background-color: var(--example-bg-color);
+.example-div{
+    text-align: center;
+    background-color: rgb(214, 210, 210);
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+.section-footer{
+    display: flex;
+    justify-content: space-between;
 }
