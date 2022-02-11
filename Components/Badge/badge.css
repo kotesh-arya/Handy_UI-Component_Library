@@ -1,0 +1,93 @@
+.badge {
+    /* width: 80rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    margin: auto;
+
+}
+
+.avatar {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+
+.online {
+    background-color: #008000;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    position: relative;
+    left: -3.3rem;
+    bottom: -1.5rem;
+    border: 3px solid #FFFFFF;
+}
+
+.offline {
+    background-color: #808080;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    position: relative;
+    left: -3.3rem;
+    bottom: -1.5rem;
+    border: 3px solid #FFFFFF;
+}
+
+.busy {
+    background-color: #FF0000;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    position: relative;
+    left: -3.3rem;
+    bottom: -1.5rem;
+    border: 3px solid #FFFFFF;
+
+}
+
+.number-one {
+    background-color: #0000FF;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    position: relative;
+    left: -2.9rem;
+    bottom: 0.8rem;
+    border: 3px solid #FFFFFF;
+   font-size: 12px;
+   font-weight: bolder;
+   color: #FFFFFF;
+}
+.number-two {
+    background-color: #FF0000;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    position: relative;
+    left: -2.9rem;
+    bottom: 0.8rem;
+    border: 3px solid #FFFFFF;
+    font-size: 11.5px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+
+.example-div {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+
+}
+.icon-avatar{
+height: 2rem;
+width: 2rem;
+}
