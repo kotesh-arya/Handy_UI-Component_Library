@@ -1,0 +1,88 @@
+.button-section {
+    margin-top: 115rem;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: #201D4F;
+    padding: 0.8rem;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: medium;
+    border: none;
+    margin-left: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #8200F6;
+}
+
+.btn-secondary {
+    background-color: #F3F4F6;
+    color: #000000;
+}
+
+.btn-error {
+    background-color: #FB1A00;
+}
+
+.btn-success {
+    background-color: #00C24E;
+
+}
+
+.outline {
+    background-color: transparent;
+    color: #201D4F;
+    border: 1px solid #201D4F;
+}
+
+.outline-primary {
+    background-color: transparent;
+    color: #8200F6;
+    border: 1px solid #8200F6;
+}
+
+.outline-error {
+    background-color: transparent;
+    color: #FB1A00;
+    border: 1px solid #FB1A00;
+
+}
+
+.outline-success {
+    background-color: transparent;
+    color: #00C24E;
+    border: 1px solid #00C24E;
+
+}
+
+.btn-link {
+    background-color: #488AFF;
+
+}
+
+.btn-link a {
+    color: #FFFFFF;
+    font-size: medium;
+}
+
+.btn-icon {
+    background-color: #488AFF;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-icon p {
+    color: #FFFFFF;
+    margin-top: 4px;
+    margin-bottom: auto;
+}
+
