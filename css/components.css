@@ -2,13 +2,8 @@
 /* Style-sheets of all individual components goes down here  */
 
 
-<<<<<<< HEAD
-@import url("/Components/Avatar/avatar.css");
-@import url("/Components/Badge/badge.css");
-=======
 
 @import url("/Components/Alert/alert.css");
->>>>>>> origin
 @import url("/Color-palette/colors.css");
 /* ------------------------------------------------------- */
 
