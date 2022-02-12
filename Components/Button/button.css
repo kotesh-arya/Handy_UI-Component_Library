@@ -1,0 +1,95 @@
+:root{
+  --medium-font-size: medium;
+ --bolder-font-weight:bolder;
+ --black:#000000;
+ --default-btn-bg:#201D4F;
+}
+
+.button-section {
+    margin-top: 125rem;
+}
+
+span {
+    font-weight: var(--bolder-font-weight);
+}
+
+.btn {
+    background-color: var(--default-btn-bg);
+    padding: 0.8rem;
+    color: var(--white);
+    font-weight: var(--bolder-font-weight);
+    font-size: var(--medium-font-size);
+    border: none;
+    margin: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--alert-primary);
+}
+
+.btn-secondary {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.btn-error {
+    background-color: var(--alert-error);
+}
+
+.btn-success {
+    background-color: var(--alert-success);
+
+}
+
+.outline {
+    background-color: transparent;
+    color: var(--default-btn-bg);
+    border: 1px solid var(--default-btn-bg);
+}
+
+.outline-primary {
+    background-color: transparent;
+    color: var(--alert-primary);
+    border: 1px solid var(--alert-primary);
+}
+
+.outline-error {
+    background-color: transparent;
+    color: var(--alert-error);
+    border: 1px solid var(--alert-error);
+
+}
+
+.outline-success {
+    background-color: transparent;
+    color: var(--alert-success);
+    border: 1px solid var(--alert-success);
+
+}
+
+.btn-link {
+    background-color: var(--alert-primary);
+
+}
+
+.btn-link a {
+    color: var(--white);
+    font-size: var(--medium-font-size);
+}
+
+.btn-icon {
+    background-color: var(--alert-primary);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-icon p {
+    color: var(--white);
+    margin-top: 4px;
+    margin-bottom: auto;
+}
+
