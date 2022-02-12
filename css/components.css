@@ -55,12 +55,13 @@ section {
 .typography-section{
     margin-top: 25rem;
 }
-.avatar-section{
+
+.avatar-section {
     margin-top: 95rem;
 }
 
-.avatar-section {
-    margin-top: 64rem;
+.badge-section {
+    margin-top: 68rem;
 }
 
 article {
@@ -74,12 +75,13 @@ hr {
 
 .example-div{
     text-align: center;
-    background-color: rgb(214, 210, 210);
+    background-color: #D6D2D2;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-.section-footer{
+
+.section-footer {
     display: flex;
     justify-content: space-between;
 }
