@@ -1,6 +1,14 @@
 :root {
     --primary-color: #202c39;
     --secondary-color: #283845;
-    --white:#fff;
+    --white:#FFFFFF;
     --main-text-size: 1.5rem;
+    --title-bg-color:#F0F8FF;
+    --example-bg-color:#E8E8E8;
+    --example-border:grey;
+    --alert-primary:#0000FF;
+    --alert-error:#FF0000;
+    --alert-success:#008000;
+    --alert-warning:#FFA500;
+
 }

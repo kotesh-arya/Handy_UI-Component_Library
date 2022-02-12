@@ -2,8 +2,13 @@
 /* Style-sheets of all individual components goes down here  */
 
 
+<<<<<<< HEAD
 @import url("/Components/Avatar/avatar.css");
 @import url("/Components/Badge/badge.css");
+=======
+
+@import url("/Components/Alert/alert.css");
+>>>>>>> origin
 @import url("/Color-palette/colors.css");
 /* ------------------------------------------------------- */
 
@@ -40,9 +45,8 @@ section {
 .section-title,
 .article-title {
     font-weight: bolder;
-    text-align: center;
-    background-color: #F0F8FF;
-    text-align: center;
+    text-align: left;
+    background-color: var(--title-bg-color);
     margin: 3rem 0px 1rem 0px;
 }
 
@@ -53,7 +57,7 @@ section {
     font-size: 1.5rem;
 }
 
-.typography-section {
+.typography-section{
     margin-top: 25rem;
 }
 
@@ -61,9 +65,8 @@ section {
     margin-top: 95rem;
 }
 
-.badge-section {
-    margin-top: 68rem;
-
+.avatar-section {
+    margin-top: 64rem;
 }
 
 article {
@@ -72,13 +75,10 @@ article {
 
 hr {
     width: 100%;
-    border-top: 1px solid grey;
-}
-span{
-    font-weight: bolder;
+    border-top: 1px solid var(--example-border);
 }
 
-.example-div {
+.example-div{
     text-align: center;
     background-color: #D6D2D2;
     width: 50%;

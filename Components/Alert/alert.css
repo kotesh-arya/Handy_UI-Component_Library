@@ -1,0 +1,58 @@
+@import url("/Color-palette/colors.css");
+
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-radius: 5px;
+    color: var(--white);
+    margin: 1rem 0;
+}
+
+.example-div {
+    text-align: center;
+    background-color: var(--example-bg-color);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    border: 1px solid var(--example-border);
+    border-radius: 5px;
+}
+
+.alert-primary {
+    background-color: var(--alert-primary);
+}
+
+.alert-error {
+    background-color: var(--alert-error);
+}
+
+.alert-success {
+    background-color: var(--alert-success);
+}
+
+.alert-warning {
+    background-color: var(--alert-warning);
+}
+
+.primary-outline {
+    border: 1px solid var(--alert-primary);
+    color: var(--alert-primary);
+}
+
+.error-outline {
+    border: 1px solid var(--alert-error);
+    color: var(--alert-error);
+}
+
+.success-outline {
+    border: 1px solid var(--alert-success);
+    color: var(--alert-success);
+}
+
+.warning-outline {
+    border: 1px solid var(--alert-warning);
+    color: var(--alert-warning);
+}
