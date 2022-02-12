@@ -1,77 +1,84 @@
+:root{
+  --medium-font-size: medium;
+ --bolder-font-weight:bolder;
+ --black:#000000;
+ --default-btn-bg:#201D4F;
+}
+
 .button-section {
-    margin-top: 115rem;
+    margin-top: 125rem;
 }
 
 span {
-    font-weight: bolder;
+    font-weight: var(--bolder-font-weight);
 }
 
 .btn {
-    background-color: #201D4F;
+    background-color: var(--default-btn-bg);
     padding: 0.8rem;
-    color: #FFFFFF;
-    font-weight: bolder;
-    font-size: medium;
+    color: var(--white);
+    font-weight: var(--bolder-font-weight);
+    font-size: var(--medium-font-size);
     border: none;
-    margin-left: 0.5rem;
+    margin: 1rem;
 }
 
 .btn-primary {
-    background-color: #8200F6;
+    background-color: var(--alert-primary);
 }
 
 .btn-secondary {
-    background-color: #F3F4F6;
-    color: #000000;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 .btn-error {
-    background-color: #FB1A00;
+    background-color: var(--alert-error);
 }
 
 .btn-success {
-    background-color: #00C24E;
+    background-color: var(--alert-success);
 
 }
 
 .outline {
     background-color: transparent;
-    color: #201D4F;
-    border: 1px solid #201D4F;
+    color: var(--default-btn-bg);
+    border: 1px solid var(--default-btn-bg);
 }
 
 .outline-primary {
     background-color: transparent;
-    color: #8200F6;
-    border: 1px solid #8200F6;
+    color: var(--alert-primary);
+    border: 1px solid var(--alert-primary);
 }
 
 .outline-error {
     background-color: transparent;
-    color: #FB1A00;
-    border: 1px solid #FB1A00;
+    color: var(--alert-error);
+    border: 1px solid var(--alert-error);
 
 }
 
 .outline-success {
     background-color: transparent;
-    color: #00C24E;
-    border: 1px solid #00C24E;
+    color: var(--alert-success);
+    border: 1px solid var(--alert-success);
 
 }
 
 .btn-link {
-    background-color: #488AFF;
+    background-color: var(--alert-primary);
 
 }
 
 .btn-link a {
-    color: #FFFFFF;
-    font-size: medium;
+    color: var(--white);
+    font-size: var(--medium-font-size);
 }
 
 .btn-icon {
-    background-color: #488AFF;
+    background-color: var(--alert-primary);
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -81,7 +88,7 @@ span {
 }
 
 .btn-icon p {
-    color: #FFFFFF;
+    color: var(--white);
     margin-top: 4px;
     margin-bottom: auto;
 }
