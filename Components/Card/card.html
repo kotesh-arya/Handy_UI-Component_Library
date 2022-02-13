@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Components/Card/card.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <meta name="author" content="Kotesh Mudila">
+    <title>Card</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Handy UI</h1>
+        </div>
+        <div class="main-links">
+            <a href="https://github.com/kotesh-arya"><img class="header-icon"
+                    src="https://img.icons8.com/windows/64/ffffff/github.png" /></a>
+            <a href="https://twitter.com/Kotesh_Mudila"><img class="header-icon"
+                    src="https://img.icons8.com/ios-glyphs/60/ffffff/twitter--v1.png" /></a>
+            <a href="https://www.linkedin.com/in/koteswara-rao-mudila-7aa740159/"><img class="header-icon"
+                    src="https://img.icons8.com/ios-glyphs/60/ffffff/linkedin.png" /></a>
+        </div>
+    </header>
+    <main>
+        <div class="side-bar">
+            <ul>
+                <li>
+                    <h3>Get-started</h3>
+                </li>
+                <hr>
+                <li><a class="sidebar-item" href="/Get-Started/introduction.html">Introduction</a></li>
+                <li><a class="sidebar-item " href="/Get-Started/typography.html">Typography</a></li>
+                <li><a class="sidebar-item" href="">Colours</a></li>
+                <li>
+                    <h3>Components</h3>
+                </li>
+                <hr>
+                <li><a class="sidebar-item" href="/Components/Avatar/avatar.html">Avatar</a></li>
+                <li><a class="sidebar-item " href="/Components/Alert/alert.html">Alert</a></li>
+                <li><a class="sidebar-item " href="/Components/Badge/badge.html">Badge</a></li>
+                <li><a class="sidebar-item " href="/Components/Button/button.html">Button</a></li>
+                <li><a class="sidebar-item link-active" href="#">Card</a></li>
+                <li><a class="sidebar-item" href="/Components/Image/image.html">Image</a></li>
+                <li"><a class="sidebar-item" href="/Components/Input/input.html">Input</a></li>
+            </ul>
+        </div>
+        <section class="card-section">
+            <div class="section-title">
+                Card
+            </div>
+            <div class="section-subtitle">
+                Cards are surfaces that display content and actions on a single topic.
+                <br>
+                They should be easy to scan for relevant and actionable information. Elements, like text and images,
+                should be placed on them in a way that clearly indicates hierarchy.
+            </div>
+            <hr>
+            <article>
+                <div class="article-title">
+                    Simple Card
+                </div>
+                <div class="article-subtitle">
+                    Simple Card is the one that contains a title, a descriptive text. To use the Card Component,
+                    <span>card-title</span>, and <span>card-content</span> inside a div with class card.
+                </div>
+                <div class="example-div">
+                    <div class="card">
+                        <div class="card-title">
+                            Iron Man
+                        </div>
+                        <div class="card-content">
+                            Tony Stark is charismatic and eccentric, he is also very proud, but also very altruist
+                            and heroic. He did not have a good childhood, and this affects how he acts. Stark is
+                            very smart, and a very talented inventor.
+                        </div>
+                    </div>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Iron%2520Man%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520content%2520goes%2520here%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 411px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="article-title">
+                    Image card
+                </div>
+                <div class="article-subtitle">
+                    Image Card is the one that contains an Image, Title & Text. To use the Card Component, <br> put
+                    <span>card-image</span>, <span>card-title</span> and <span>card-content</span>, inside a div with
+                    class card.
+                </div>
+                <div class="example-div">
+                    <div class="card">
+                        <img class="card-image"
+                            src="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/05/04/2234815314.jpeg" />
+
+                        <div class=" card-title">
+                            Tony Stark
+                        </div>
+                        <div class="card-content">
+                            Tony Stark is charismatic and eccentric, he is also very proud, but also very altruist
+                            and heroic. He did not have a good childhood, and this affects how he acts. Stark is
+                            very smart, and a very talented inventor.
+                        </div>
+                    </div>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522image-path-link%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Title%2520goes%2520here%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Content%2520goes%2520here%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 605px; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="article-title">
+                    Social Media Card
+                </div>
+                <div class="article-subtitle">
+                    Social Media Card is the one that contains an Avatar, Profile Name, Image, and Description.
+                </div>
+                <div class="example-div">
+                    <div class="card">
+                        <div class="top-header">
+                            <img class="avatar  avatar-sm" src="https://i.pravatar.cc/64" alt="avatar-1">
+                            <div class="card-title top-header-card">Jack Snyder</div>
+                        </div>
+                        <div>
+                            <img class="image" src="https://i.pravatar.cc/254" />
+                        </div>
+                        <div class="card-content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sequi,
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque accusamus illo qui
+                            iure nihil illo, commodi quisquam a, non dolor laborum consectetur!
+                        </div>
+                    </div>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top-header%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F64%2522%2520alt%253D%2522avatar-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520top-header-card%2522%253EJack%2520Snyder%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F254%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520Content%2520goes%2520here%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 841px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="article-title">
+                    E-Commerce Card
+                </div>
+                <div class="article-subtitle">
+                    E-Commerce Card is used to display the products details i.e., Product shot, Name, Type, Fixed badge,
+                    Price, Discount and stock.
+                </div>
+                <div class="example-div">
+                    <div class="card">
+                        <div class="label-icon">
+                            <div class="label">
+                                NEW
+                            </div>
+                            <img src="/Assets/Images/heart.png" class="stacked-icon" alt="" srcset="">
+                        </div>
+                        <img class="product-image" src="/Assets/Images/Timex-watch.png" />
+                        <div class="card-content">Timex</div>
+                        <div class="card-title">
+                            Leather watch series
+                        </div>
+                        <div class="card-content">
+                            Rs.490 <strike>Rs.1299</strike> (62% OFF)
+                        </div>
+                        <footer class="footer">
+                            <a href="">ADD TO CART</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522label-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522label%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520NEW%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FAssets%252FImages%252Fheart.png%2522%2520class%253D%2522stacked-icon%2522%2520alt%253D%2522%2522%2520srcset%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cimg%2520class%253D%2522product-image%2522%2520src%253D%2522%252FAssets%252FImages%252FTimex-watch.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253ETimex%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Leather%2520watch%2520series%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Rs.490%2520%253Cstrike%253ERs.1299%253C%252Fstrike%253E%2520%2862%2525%2520OFF%29%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cfooter%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EADD%2520TO%2520CART%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Ffooter%253E%250A%2520%253C%252Fdiv%253E"
+                        style="width: 816px; height: 558px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </article>
+            <div class="section-footer">
+                <a href="/Components/Button/button.html">
+                    < Button</a> <a href="/Components/Image/image.html"> Image >
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

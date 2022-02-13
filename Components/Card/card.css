@@ -1,0 +1,126 @@
+:root {
+    --card-color: rgb(211, 211, 211);
+    --black: #000000;
+    --medium-font-size: medium;
+    --large-font-size: large;
+    --larger-font-size: larger;
+    --bolder-font-weight: bolder;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card-section {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+section .example-div {
+    width: 80%;
+    margin: auto auto 2rem auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: var(--white);
+    box-shadow: 3px 3px 10px 1px var(--black);
+    text-align: left;
+}
+
+.product-image {
+    width: 50%;
+    margin-left: 5rem;
+}
+
+img {
+    width: 100%;
+}
+
+.top-header {
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    /* margin-left: 0 ; */
+    font-size: var(--larger-font-size);
+    text-align: left;
+    margin: 1rem 0 1rem 1rem;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-weight: var(--bolder-font-weight);
+}
+
+.card-content {
+    font-size: var(--large-font-size);
+    margin: 1rem;
+}
+
+.top-header-card {
+    font-size: var(--larger-font-size);
+    margin-left: 0.5rem;
+}
+
+.image {
+    width: 100%;
+}
+
+.avatar {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-left: 0 5px;
+}
+
+.avatar-sm {
+    height: 3rem;
+    width: 3rem;
+}
+
+.label {
+    height: 3rem;
+    width: 4.5rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: var(--bolder-font-weight);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stacked-icon {
+    height: 3rem;
+    width: 3rem;
+}
+
+.label-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 1.5rem;
+    width: 95%;
+    margin-right: auto;
+}
+
+.footer {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    width: fit-content;
+    padding: 1rem;
+}
+
+.footer a {
+    margin: 1rem 0;
+    color: var(--white);
+    font-weight: var(--bolder-font-weight);
+}
