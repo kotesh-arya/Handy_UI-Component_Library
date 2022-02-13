@@ -16,6 +16,10 @@
     margin-top: auto;
 }
 
+span {
+    font-weight: var(--bolder-font-weight);
+}
+
 section .example-div {
     width: 80%;
     margin: auto auto 2rem auto;
@@ -28,8 +32,45 @@ section .example-div {
     margin-right: auto;
     width: 50%;
     background-color: var(--white);
-    box-shadow: 3px 3px 10px 1px var(--black);
     text-align: left;
+}
+
+.horizontal-card {
+    width: 55%;
+}
+
+.vertical-card {
+    width: 25rem;
+}
+
+.badge-card {
+    width: 25rem;
+}
+
+.shadow-card {
+    box-shadow: 3px 3px 20px 5px var(--black);
+}
+
+.text-overlay-card .overlay-title {
+    color: var(--white);
+    position: relative;
+    bottom: 4rem;
+    margin-bottom: -4rem;
+}
+
+.image-icon-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.close-icon {
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    margin-left: -3rem;
+    bottom: 5px;
+    right: -5px;
 }
 
 .product-image {
@@ -50,7 +91,6 @@ img {
 }
 
 .card-title {
-    /* margin-left: 0 ; */
     font-size: var(--larger-font-size);
     text-align: left;
     margin: 1rem 0 1rem 1rem;
@@ -108,19 +148,24 @@ img {
     justify-content: space-between;
     position: relative;
     top: 1.5rem;
+    right: 0.5rem;
     width: 95%;
     margin-right: auto;
 }
 
 .footer {
-    margin: 1rem;
-    background-color: var(--primary-color);
+    width: 100%;
+    display: flex;
+    justify-content: left;
     width: fit-content;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .footer a {
     margin: 1rem 0;
     color: var(--white);
     font-weight: var(--bolder-font-weight);
+    background-color: var(--primary-color);
+    padding: 5px;
+    margin: 0.5rem;
 }
