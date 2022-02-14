@@ -1,0 +1,40 @@
+:root {
+    --black: #000000;
+    --large-font-size: 2rem;
+    --larger-font-size: 3rem;
+    --bolder-font-weight: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hilight-class-name {
+    font-weight: var(--bolder-font-weight);
+}
+
+.image-section {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+article.responsive-image-container {
+    width: 90%;
+}
+
+.responsive-image {
+    width: 100%;
+}
+
+.rounded-image {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.frame-div {
+    width: 100%;
+    height: 190px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+}
