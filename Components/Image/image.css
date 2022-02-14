@@ -1,0 +1,30 @@
+:root {
+    --black: #000000;
+    --medium-font-size: medium;
+    --large-font-size: large;
+    --larger-font-size: larger;
+    --bolder-font-weight: bolder;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+span {
+    font-weight: var(--bolder-font-weight);
+}
+.image-section{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ article.responsive-image-container{
+    width: 90%;
+}
+.responsive-image{
+width: 100%;
+}
+
+.rounded-image{
+    height: 10rem;
+border-radius: 50%;
+}
