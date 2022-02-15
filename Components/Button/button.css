@@ -6,8 +6,8 @@
 }
 
 .button-section {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: -2rem auto auto 4rem;
+    width: 80%;
 }
 
 span {

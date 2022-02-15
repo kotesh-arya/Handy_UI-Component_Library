@@ -1,5 +1,4 @@
 .badge {
-    /* width: 80rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +6,10 @@
     margin: auto;
 
 }
-
+.badge-section{
+    margin: -2rem auto auto 4rem;
+    width: 80%;
+}
 .avatar {
     height: 4rem;
     width: 4rem;

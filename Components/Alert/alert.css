@@ -9,7 +9,10 @@
     color: var(--white);
     margin: 1rem 0;
 }
-
+.alert-section{
+    margin: -2rem auto auto 4rem;
+    width: 80%;
+}
 .example-div {
     text-align: center;
     background-color: var(--example-bg-color);
