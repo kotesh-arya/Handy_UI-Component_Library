@@ -1,12 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
 /* Style-sheets of all individual components goes down here  */
 
-
-
 @import url("/Components/Alert/alert.css");
+@import url("/Components/Slider/slider.css");
 @import url("/Color-palette/colors.css");
 /* ------------------------------------------------------- */
-
 
 * {
     box-sizing: border-box;
@@ -52,18 +49,6 @@ section {
     font-size: 1.5rem;
 }
 
-.typography-section{
-    margin-top: 25rem;
-}
-
-.avatar-section {
-    margin-top: 95rem;
-}
-
-.badge-section {
-    margin-top: 68rem;
-}
-
 article {
     text-align: center;
 }
@@ -73,7 +58,7 @@ hr {
     border-top: 1px solid var(--example-border);
 }
 
-.example-div{
+.example-div {
     text-align: center;
     background-color: #D6D2D2;
     width: 50%;

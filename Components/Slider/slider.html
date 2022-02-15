@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Kotesh Mudila">
-    <title>HandyUI: Introduction</title>
+    <link rel="stylesheet" href="/Components/Slider/slider.css"> 
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/components.css">
+    <meta name="author" content="Kotesh Mudila">
+    <title>Slider</title>
 </head>
-
 <body>
     <header class="header">
         <div class="logo">
@@ -34,58 +33,51 @@
                     <h3>Get-started</h3>
                 </li>
                 <hr>
-                <li><a class="sidebar-item link-active" href="/Get-Started/introduction.html">Introduction</a></li>
-                <li><a class="sidebar-item" href="/Get-Started/typography.html">Typography</a></li>
+                <li><a class="sidebar-item" href="/Get-Started/introduction.html">Introduction</a></li>
+                <li><a class="sidebar-item " href="/Get-Started/typography.html">Typography</a></li>
                 <li><a class="sidebar-item" href="">Colours</a></li>
                 <li>
                     <h3>Components</h3>
                 </li>
                 <hr>
-                <li><a class="sidebar-item" href="/Components//Avatar/avatar.html">Avatar</a></li>
-                <li><a class="sidebar-item" href="/Components/Alert/alert.html">Alert</a></li>
-                <li><a class="sidebar-item" href="/Components/Badge/badge.html">Badge</a></li>
+                <li><a class="sidebar-item" href="/Components/Avatar/avatar.html">Avatar</a></li>
+                <li><a class="sidebar-item " href="/Components/Alert/alert.html">Alert</a></li>
+                <li><a class="sidebar-item " href="/Components/Badge/badge.html">Badge</a></li>
                 <li><a class="sidebar-item " href="/Components/Button/button.html">Button</a></li>
                 <li><a class="sidebar-item " href="/Components/Card/card.html">Card</a></li>
                 <li><a class="sidebar-item" href="/Components/Image/image.html">Image</a></li>
                 <li><a class="sidebar-item" href="/Components/Input/input.html">Input</a></li>
-                <li><a class="sidebar-item" href="/Components/Slider/slider.html">Slider</a></li>
+                <li><a class="sidebar-item link-active" href="#">Slider</a></li>
                 <li><a class="sidebar-item" href="/Components/Grid/grid.html">Grid</a></li>
                 <li><a class="sidebar-item" href="/Components/Navigation/navigation.html">Navigation</a></li>
             </ul>
         </div>
-        <section class="introduction-section">
+        <section class="slider-section">
             <div class="section-title">
-                Introduction to Handy UI
+                Slider
             </div>
             <div class="section-subtitle">
-                An open source styling framework, which helps Developers to use best styles and components, by using
-                pre-defined classnames and helps you to quickly build your Dream Project, by focusing much on
-                Functionality for the Ideal design you are planning for.
+               Sliders are used to record the user's exact response value and show the results according to that value.
             </div>
-            <hr>
-
             <article>
-                <div class="article-title">
-                    Installation
-                </div>
-                <div class="article-subtitle">
-                    In order to equip HandyUI to your project, copy the link given below and paste it in the
-                    <span>Head</span> tag of your html, above all other style sheets.
+                <div class="example-div">
+                  <div class="slider-container">
+                      <input type="range" min="1" max="100" value="50" class="slider">
+                  </div>
                 </div>
                 <div class="code-frame">
                     <iframe class="frame-div"
-                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252FHandy-UI.netlify.app%252Fcss%252Fcomponents.css%2522%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                    src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
                 </div>
             </article>
-
             <div class="section-footer">
-                <a href=""> </a>
-                <a href="/Get-Started/typography.html"> Typography > </a>
+                <a href="/Components/Input/input.html">
+                    < Input</a> <a href="/Components/Grid/grid.html"> Grid >
+                </a>
             </div>
         </section>
     </main>
 </body>
-
 </html>
