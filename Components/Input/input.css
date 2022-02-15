@@ -6,10 +6,10 @@
 }
 
 .input-section {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
-.input{
+
+.input {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@
     padding: 1rem;
     font-size: var(--medium-font-size);
     border: 2px solid var(--primary-color);
-   border-radius: 15px;
+    border-radius: 15px;
 }
 
 .basic {
@@ -30,29 +30,28 @@
 
 .success {
     border: 2px solid var(--success);
-
 }
 
 .warning {
     border: 2px solid var(--warning);
-
 }
 
 .error {
     border: 2px solid var(--error);
+}
 
+.input-label-success {
+    color: var(--success);
 }
-.input-label-success{
-color: var(--success) ;
-}
-.input-label-warning{
-    color: var(--warning) ;
 
+.input-label-warning {
+    color: var(--warning);
 }
-.input-label-error{
-    color: var(--error) ;
 
+.input-label-error {
+    color: var(--error);
 }
+
 .frame-div {
     width: 100%;
     height: 190px;
@@ -60,6 +59,7 @@ color: var(--success) ;
     transform: scale(1);
     overflow: hidden;
 }
-.code-frame{
+
+.code-frame {
     margin: 2rem;
 }
