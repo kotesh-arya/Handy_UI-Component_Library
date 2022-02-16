@@ -30,8 +30,8 @@ span {
 }
 
 .header-icon {
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 .main-heading {
@@ -39,7 +39,7 @@ span {
 }
 
 p {
-    color: grey;
+    color: var(--example-border);
 }
 
 a {
@@ -64,7 +64,7 @@ a {
 
 .get-started:hover {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white);
     transition: 0.2s ease-in-out;
 }
 
@@ -93,7 +93,7 @@ a {
     box-shadow: 1px 3px 6px grey;
 }
 .introduction-section, .typography-section{
-    margin: -2rem auto auto 4rem;
+    margin: 1rem auto auto 4rem;
     width: 80%;
 }
 .frame-div {

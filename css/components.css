@@ -15,7 +15,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 0.5rem;
 }
 
 section {
@@ -39,7 +38,7 @@ section {
     font-weight: bolder;
     text-align: left;
     background-color: var(--title-bg-color);
-    margin: 3rem 0px 1rem 0px;
+    margin: 1rem 0px 1rem 0px;
 }
 
 .section-subtitle,
@@ -60,7 +59,7 @@ hr {
 
 .example-div {
     text-align: center;
-    background-color: #D6D2D2;
+    background-color: var(--example-bg-color);
     width: 50%;
     margin-left: auto;
     margin-right: auto;

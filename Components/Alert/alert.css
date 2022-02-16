@@ -8,11 +8,14 @@
     border-radius: 5px;
     color: var(--white);
     margin: 1rem 0;
+    padding: 1.5rem;
 }
-.alert-section{
-    margin: -2rem auto auto 4rem;
+
+.alert-section {
+    margin: auto auto auto 4rem;
     width: 80%;
 }
+
 .example-div {
     text-align: center;
     background-color: var(--example-bg-color);
@@ -58,4 +61,10 @@
 .warning-outline {
     border: 1px solid var(--alert-warning);
     color: var(--alert-warning);
+}
+.frame-div {
+    width: 100%;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
 }

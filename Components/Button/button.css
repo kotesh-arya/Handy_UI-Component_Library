@@ -6,7 +6,7 @@
 }
 
 .button-section {
-    margin: -2rem auto auto 4rem;
+    margin: auto auto auto 4rem;
     width: 80%;
 }
 
@@ -106,4 +106,10 @@ span {
 .float-btn-div{
     display: flex;
     flex-direction: row;
+}
+.frame-div {
+    width: 100%;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
 }

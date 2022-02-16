@@ -12,7 +12,7 @@
 }
 
 .card-section {
-    margin: -2rem auto auto 4rem;
+    margin: auto auto auto 4rem;
     width: 80%;
 }
 
@@ -168,4 +168,10 @@ img {
     background-color: var(--primary-color);
     padding: 5px;
     margin: 0.5rem;
+}
+.frame-div {
+    width: 100%;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
 }
