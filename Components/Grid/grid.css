@@ -1,0 +1,22 @@
+.grid-section{
+    margin: -2rem auto auto 4rem;
+    width: 80%;
+}
+  .grid-1{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 2rem;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 2rem;
+}
+.grid-item{
+    margin: auto;
+    width: 100%;
+}
