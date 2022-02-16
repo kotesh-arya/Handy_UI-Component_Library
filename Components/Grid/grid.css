@@ -1,22 +1,32 @@
-.grid-section{
-    margin: -2rem auto auto 4rem;
+.grid-section {
+    margin: auto auto auto 4rem;
     width: 80%;
 }
-  .grid-1{
+
+.grid-1 {
     display: grid;
-    grid-template-columns:  1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
     padding: 2rem;
 }
-.grid-2{
+
+.grid-2 {
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 1rem;
     padding: 2rem;
 }
-.grid-item{
+
+.grid-item {
     margin: auto;
     width: 100%;
+}
+
+.frame-div {
+    width: 100%;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
 }

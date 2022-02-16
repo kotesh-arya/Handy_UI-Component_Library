@@ -14,8 +14,8 @@
 }
 
 .image-section {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto auto auto 4rem;
+    width: 80%;
 }
 
 article.responsive-image-container {
@@ -33,7 +33,6 @@ article.responsive-image-container {
 
 .frame-div {
     width: 100%;
-    height: 190px;
     border: 0;
     transform: scale(1);
     overflow: hidden;

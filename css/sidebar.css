@@ -15,7 +15,6 @@ li {
 
 .side-bar {
     height: 100%;
-    margin-left: 1rem;
     border-right: 2px solid var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
 }
