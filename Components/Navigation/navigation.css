@@ -1,0 +1,29 @@
+.navigation-section {
+    margin: 0 auto auto 4rem;
+    width: 80%;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    padding: 0 1rem;
+}
+
+.nav-header {
+    color: var(--white);
+}
+.nav-example-div{
+    width: 90%;
+    background-color: var(--example-bg-color);
+    padding: 3rem;
+    margin: auto;
+}
+.frame-div {
+    width: 100%;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+}
