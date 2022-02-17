@@ -1,14 +1,54 @@
 :root {
     --primary-color: #202c39;
     --secondary-color: #283845;
-    --white:#FFFFFF;
+    --white: #FFFFFF;
+    --black: #000000;
     --main-text-size: 1.5rem;
-    --title-bg-color:#F0F8FF;
-    --example-bg-color:#E8E8E8;
-    --example-border:#808080;
-    --alert-primary:#0000FF;
-    --alert-error:#FF0000;
-    --alert-success:#008000;
-    --alert-warning:#FFA500;
+    --title-bg-color: #F0F8FF;
+    --example-bg-color: #E8E8E8;
+    --example-border: #808080;
+    --alert-primary: #0000FF;
+    --alert-error: #FF0000;
+    --alert-success: #008000;
+    --alert-warning: #FFA500;
+
+}
+
+.colour-section {
+    margin: 0 auto auto 4rem;
+    width: 80%;
+}
+
+.colour-palette-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.colour-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    color: var(--white);
+}
+.primary{
+ background-color: var(--primary-color);
+}
+.secondary{
+    background-color: var(--secondary-color);
+
+}
+.error{
+    background-color: var(--alert-error);
+
+}
+.success{
+    background-color: var(--alert-success);
+
+}
+.warning{
+    background-color: var(--alert-warning);
 
 }

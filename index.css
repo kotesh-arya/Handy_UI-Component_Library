@@ -92,7 +92,7 @@ a {
     margin: 1rem;
     box-shadow: 1px 3px 6px grey;
 }
-.introduction-section, .typography-section{
+.introduction-section{
     margin: 1rem auto auto 4rem;
     width: 80%;
 }
