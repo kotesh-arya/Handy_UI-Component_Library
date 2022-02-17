@@ -16,7 +16,7 @@
     width: 80%;
 }
 
-span {
+.highlight-text {
     font-weight: var(--bolder-font-weight);
 }
 
@@ -30,15 +30,26 @@ section .example-div {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30rem;
     background-color: var(--white);
     text-align: left;
 }
-
-.horizontal-card {
-    width: 55%;
+.horizontal-card-container{
+    width: 100%;
 }
-
+.horizontal-card {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: var(--white);
+    /* text-align: left; */
+    width: 50%;
+}
+.horizontal-card-image{
+    width: 50%;
+}
 .vertical-card {
     width: 25rem;
 }
