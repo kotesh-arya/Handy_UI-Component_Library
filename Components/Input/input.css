@@ -15,7 +15,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .input-box {
@@ -29,15 +29,16 @@
     border: 2px solid var(--primary-color);
 }
 
-.success {
+.success-input {
     border: 2px solid var(--success);
+    
 }
 
-.warning {
+.warning-input {
     border: 2px solid var(--warning);
 }
 
-.error {
+.error-input {
     border: 2px solid var(--error);
 }
 
