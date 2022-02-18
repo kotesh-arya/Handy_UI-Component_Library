@@ -95,6 +95,8 @@ a {
 .introduction-section{
     margin: 1rem auto auto 4rem;
     width: 80%;
+    font-size: var(--main-text-size);
+
 }
 .frame-div {
     width: 100%;

@@ -8,6 +8,8 @@
   .avatar-section{
     margin: auto auto auto 4rem;
     width: 80%;
+    font-size: var(--main-text-size);
+
   }
   .example-div-avatar{
     width: 50%;
