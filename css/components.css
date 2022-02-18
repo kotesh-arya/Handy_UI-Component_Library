@@ -1,6 +1,9 @@
 /* Style-sheets of all individual components goes down here  */
+
 @import url("/Components/Avatar/avatar.css");
 @import url("/Components/Alert/alert.css");
+@import url("/Components/Badge/badge.css");
+
 @import url("/Components/Slider/slider.css");
 @import url("/Color-palette/colors.css");
 /* ------------------------------------------------------- */
@@ -63,6 +66,8 @@ hr {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    justify-content: center;
 }
 
 .section-footer {
