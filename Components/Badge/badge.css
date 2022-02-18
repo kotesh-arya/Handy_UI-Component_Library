@@ -11,14 +11,6 @@
     margin: auto auto auto 4rem;
     width: 80%;
 }
-
-.avatar {
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-}
-
-
 .online {
     background-color: var(--alert-success);
     height: 1.2rem;
@@ -90,14 +82,17 @@
     border-radius: 5px;
     margin: auto;
     width: 50%;
-
 }
 
-.icon-avatar {
+.badge-icon {
     height: 2rem;
     width: 2rem;
 }
-
+.badge-avatar{
+    height:4rem;
+    width:4rem;
+    border-radius:50%;
+}
 .frame-div {
     width: 100%;
     border: 0;

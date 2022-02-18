@@ -1,5 +1,5 @@
 /* Style-sheets of all individual components goes down here  */
-
+@import url("/Components/Avatar/avatar.css");
 @import url("/Components/Alert/alert.css");
 @import url("/Components/Slider/slider.css");
 @import url("/Color-palette/colors.css");
