@@ -36,6 +36,7 @@
     height: 10rem;
     width: 10rem;
     color: var(--white);
+    font-weight: var(--bolder-font-weight);
 }
 .primary{
  background-color: var(--primary-color);
