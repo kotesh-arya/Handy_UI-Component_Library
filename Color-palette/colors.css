@@ -11,7 +11,11 @@
     --alert-error: #FF0000;
     --alert-success: #008000;
     --alert-warning: #FFA500;
-
+    --card-color: rgb(211, 211, 211);
+    --medium-font-size: medium;
+    --large-font-size: large;
+    --larger-font-size: larger;
+    --bolder-font-weight: bolder;
 }
 
 .colour-section {

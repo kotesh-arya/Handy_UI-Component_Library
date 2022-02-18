@@ -1,3 +1,4 @@
+@import url("");
 .badge {
     display: flex;
     justify-content: center;
@@ -98,4 +99,7 @@
     border: 0;
     transform: scale(1);
     overflow: hidden;
+}
+.highlight-text{
+    font-weight: var(--bolder-font-weight);
 }
