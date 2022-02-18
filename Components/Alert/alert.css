@@ -9,6 +9,7 @@
     color: var(--white);
     margin: 1rem 0;
     padding: 1.5rem;
+    font-weight: var(--bolder-font-weight);
 }
 
 .alert-section {
@@ -16,7 +17,7 @@
     width: 80%;
 }
 
-.example-div {
+.example-div-column {
     text-align: center;
     background-color: var(--example-bg-color);
     width: 50%;
@@ -28,7 +29,7 @@
 }
 
 .alert-primary {
-    background-color: var(--alert-primary);
+    background-color: var(--primary-color);
 }
 
 .alert-error {
@@ -41,11 +42,12 @@
 
 .alert-warning {
     background-color: var(--alert-warning);
+    color: var(--black);
 }
 
 .primary-outline {
-    border: 1px solid var(--alert-primary);
-    color: var(--alert-primary);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .error-outline {
