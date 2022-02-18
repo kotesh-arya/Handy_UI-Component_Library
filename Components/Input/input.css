@@ -23,8 +23,11 @@
     font-size: var(--medium-font-size);
     border: 2px solid var(--primary-color);
     border-radius: 15px;
+    margin: 1rem;
 }
-
+.highlight-text{
+    font-weight: var(--bolder-font-weight);
+}
 .basic {
     border: 2px solid var(--primary-color);
 }

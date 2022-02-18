@@ -10,12 +10,12 @@
     width: 80%;
 }
 
-span {
+.highlight-text {
     font-weight: var(--bolder-font-weight);
 }
 
 .btn {
-    background-color: var(--primary-color);
+    background-color: var(--alert-primary);
     padding: 0.8rem;
     color: var(--white);
     font-weight: var(--bolder-font-weight);
@@ -25,7 +25,7 @@ span {
 }
 
 .btn-primary {
-    background-color: var(--alert-primary);
+    background-color: var(--primary-color);
 }
 
 .btn-secondary {
@@ -42,16 +42,16 @@ span {
 
 }
 
-.outline {
+.outline-button {
     background-color: transparent;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    color: var(--alert-primary);
+    border: 1px solid var(--alert-primary);
 }
 
 .outline-primary {
     background-color: transparent;
-    color: var(--alert-primary);
-    border: 1px solid var(--alert-primary);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .outline-error {
@@ -69,7 +69,7 @@ span {
 }
 
 .btn-link {
-    background-color: var(--alert-primary);
+    background-color: var(--primary-color);
 
 }
 
@@ -79,7 +79,7 @@ span {
 }
 
 .btn-icon {
-    background-color: var(--alert-primary);
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: row;
     text-align: center;
