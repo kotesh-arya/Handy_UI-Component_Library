@@ -3,8 +3,13 @@
 @import url("/Components/Avatar/avatar.css");
 @import url("/Components/Alert/alert.css");
 @import url("/Components/Badge/badge.css");
-
+@import url("/Components/Button/");
+@import url("/Components/Card/card.css");
+@import url("/Components/Image/image.css");
+@import url("/Components/Input/input.css");
 @import url("/Components/Slider/slider.css");
+@import url("/Components/Grid/grid.css");
+@import url("/Components/Navigation/navigation.css");
 @import url("/Color-palette/colors.css");
 /* ------------------------------------------------------- */
 
