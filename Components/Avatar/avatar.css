@@ -13,11 +13,12 @@
     padding:1rem;
     border-radius:5px;
     margin:1rem;
+    align-items: flex-end;
   }
   .avatar-sm{
     height:3rem;
     width:3rem;
-  }
+  } 
   .avatar-md{
     height:4rem;
     width:4rem;
