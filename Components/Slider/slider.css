@@ -35,4 +35,11 @@
 .code-frame {
     margin: 2rem;
 }
-
+.example-div-slider{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var( --example-bg-color);
+    padding: 2rem;
+    border-radius: 5px;
+}
