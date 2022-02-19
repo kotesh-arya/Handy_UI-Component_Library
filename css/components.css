@@ -3,7 +3,7 @@
 @import url("/Components/Avatar/avatar.css");
 @import url("/Components/Alert/alert.css");
 @import url("/Components/Badge/badge.css");
-@import url("/Components/Button/");
+@import url("/Components/Button/button.css");
 @import url("/Components/Card/card.css");
 @import url("/Components/Image/image.css");
 @import url("/Components/Input/input.css");
@@ -17,65 +17,4 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-section {
-    width: 65%;
-    text-align: center;
-    margin: 10rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: var(--main-text-size);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.section-title {
-    font-size: 2rem;
-}
-
-.section-title,
-.article-title {
-    font-weight: bolder;
-    text-align: left;
-    background-color: var(--title-bg-color);
-    margin: 1rem 0px 1rem 0px;
-}
-
-.section-subtitle,
-.article-subtitle {
-    text-align: justify;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-}
-
-article {
-    text-align: center;
-}
-
-hr {
-    width: 100%;
-    border-top: 1px solid var(--example-border);
-}
-
-.example-div {
-    text-align: center;
-    background-color: var(--example-bg-color);
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
-}
-
-.section-footer {
-    display: flex;
-    justify-content: space-between;
 }

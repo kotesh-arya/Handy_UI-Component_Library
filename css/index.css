@@ -1,5 +1,5 @@
-@import url("./Color-palette/colors.css");
-@import url("./css/header.css");
+@import url("/Color-palette/colors.css");
+@import url("/css/header.css");
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 :root {
     --main-text-size: 1.5rem;
@@ -16,8 +16,8 @@ body {
     font-family: 'Ibarra Real Nova', serif;
 }
 
-main {
-    height: 100vh;
+.home-main-content {
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,21 +32,25 @@ span {
 .header-icon {
     height: 2.5rem;
     width: 2.5rem;
+    text-decoration: none;
+    margin: 1.5rem;
 }
 
 .main-heading {
     font-size: 4rem;
 }
 
-p {
-    color: var(--example-border);
+
+.sidebar-item{
+    color: var(--primary-color);
+    font-size: var(--main-text-size);
+    text-decoration: none;
+
 }
 
-a {
-    color: var(--primary-color);
+.header-link-icon{
     text-decoration: none;
     margin: 1.5rem;
-    font-size: var(--main-text-size);
 }
 
 .main-buttons {
@@ -95,6 +99,8 @@ a {
 .introduction-section{
     margin: 1rem auto auto 4rem;
     width: 80%;
+    font-size: var(--main-text-size);
+
 }
 .frame-div {
     width: 100%;

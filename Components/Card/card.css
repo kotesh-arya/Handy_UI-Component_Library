@@ -176,8 +176,9 @@ section .example-div {
     color: var(--white);
     font-weight: var(--bolder-font-weight);
     background-color: var(--primary-color);
-    padding: 5px;
+    padding: 10px;
     margin: 0.5rem;
+    text-decoration: none;
 }
 .frame-div {
     width: 100%;

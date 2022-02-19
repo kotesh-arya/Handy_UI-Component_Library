@@ -3,6 +3,7 @@
 .typography-section {
     margin: 1rem auto auto 4rem;
     width: 80%;
+    font-size: var(--main-text-size);
 }
 
 .header-text {
