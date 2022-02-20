@@ -1,11 +1,9 @@
-@import url("");
 .badge {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
     margin: auto;
-
 }
 
 .badge-section {

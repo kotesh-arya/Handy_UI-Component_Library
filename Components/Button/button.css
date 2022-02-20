@@ -1,8 +1,8 @@
-:root{
-  --medium-font-size: medium;
- --bolder-font-weight:bolder;
- --black:#000000;
- --default-btn-bg:#201D4F;
+:root {
+    --medium-font-size: medium;
+    --bolder-font-weight: bolder;
+    --black: #000000;
+    --default-btn-bg: #201D4F;
 }
 
 .button-section {
@@ -73,10 +73,13 @@
 
 }
 
-.btn-link a {
-    color: var(--white);
+.link-button {
+    text-decoration: none;
     font-size: var(--medium-font-size);
+    color: var(--white);
 }
+
+
 
 .btn-icon {
     background-color: var(--primary-color);
@@ -93,7 +96,8 @@
     margin-top: 4px;
     margin-bottom: auto;
 }
-.btn-floating{
+
+.btn-floating {
     border-radius: 50%;
     background-color: var(--primary-color);
     display: flex;
@@ -103,10 +107,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-.float-btn-div{
+
+.float-btn-div {
     display: flex;
     flex-direction: row;
 }
+
 .frame-div {
     width: 100%;
     border: 0;
