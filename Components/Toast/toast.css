@@ -1,0 +1,10 @@
+.toast-container{
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--primary-color);
+    padding: 6px;
+    border-radius: 5px;
+}
