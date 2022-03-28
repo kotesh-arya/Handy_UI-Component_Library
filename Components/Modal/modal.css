@@ -1,11 +1,3 @@
-:root {
-    --success: #008000;
-    --warning: #FFA500;
-    --error: #FF0000;
-    --medium-font-size: 1.5rem;
-}
-
-
 
 .modal-open-button {
     padding: 2rem;
@@ -16,19 +8,15 @@
     border-radius: 5px;
 }
 
-
 .modal-container {
     padding-top: 10rem;
     position: fixed;
-    /* Positioning and size */
     top: 0;
     left: 0;
     width: 100vw;
     height: 100rem;
-    background-color: rgba(128, 128, 128, 0.5);
-    /* color */
+    background-color: rgba(128, 128, 128, 0.5); /* background with opacity when modal appears*/
     display: none;
-    /* making it hidden by default */
 }
 
 .modal-content {
@@ -40,8 +28,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    /* -------------- */
-
 }
 
 .close-icon {
@@ -67,10 +53,7 @@
     margin: 1rem;
     font-size: var(--smaller-font-size);
     border-radius: 5px;
-
 }
-
-
 
 .sign-up-btn {
     padding: 1rem;
@@ -86,10 +69,8 @@
 .frame-div {
     width: 100%;
     border: 0;
-    /* height: 100%; */
     transform: scale(1);
     overflow: hidden;
-    /* position: ; */
 }
 
 .code-frame {

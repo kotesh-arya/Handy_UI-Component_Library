@@ -1,9 +1,4 @@
-:root {
-    --success: #008000;
-    --warning: #FFA500;
-    --error: #FF0000;
-    --medium-font-size: 1.5rem;
-}
+
 
 .list-section {
     margin: auto auto auto 4rem;
@@ -14,8 +9,6 @@
     display: inline;
     justify-content: space-between;
     width: 8rem;
-
-
 }
 
 .spaced-list {
