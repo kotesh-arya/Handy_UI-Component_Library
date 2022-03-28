@@ -1,0 +1,95 @@
+
+
+.list-section {
+    margin: auto auto auto 4rem;
+    width: 80%;
+}
+
+.spaced-list-item {
+    display: inline;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+.spaced-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.example-div-spaced-list {
+    text-align: center;
+    background-color: var(--example-bg-color);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: var(--main-text-size);
+}
+
+.example-div-stacked-list {
+    text-align: center;
+    background-color: var(--example-bg-color);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: var(--main-text-size);
+}
+
+.stacked-unordered-item {
+    list-style-type: disc;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disc-type-item {
+    list-style-type: disc;
+}
+
+.circle-type-item {
+    list-style-type: circle;
+}
+
+.square-type-item {
+    list-style-type: square;
+}
+
+.example-div-stacked-list {
+    text-align: center;
+    background-color: var(--example-bg-color);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: var(--main-text-size);
+}
+
+.stacked-ordered-item {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.roman-type-item {
+    list-style-type: upper-roman;
+}
+
+.alphabet-type-item {
+    list-style-type: upper-alpha;
+}
+
+.frame-div {
+    width: 100%;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.code-frame {
+    margin: 2rem;
+}

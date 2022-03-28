@@ -1,0 +1,78 @@
+
+.modal-open-button {
+    padding: 2rem;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: var(--small-font-size);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.modal-container {
+    padding-top: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100rem;
+    background-color: rgba(128, 128, 128, 0.5); /* background with opacity when modal appears*/
+    display: none;
+}
+
+.modal-content {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.close-icon {
+    position: relative;
+    right: 27rem;
+    top: 3px;
+    height: 2rem;
+    width: 2rem;
+}
+
+.hero-image {
+    width: 25rem;
+}
+
+.modal-header {
+    font-size: var(--medium-font-size);
+    font-weight: var(--bolder-font-weight);
+}
+
+.modal-input {
+    width: 25rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: var(--smaller-font-size);
+    border-radius: 5px;
+}
+
+.sign-up-btn {
+    padding: 1rem;
+    margin: 2rem;
+    width: 12rem;
+    font-size: var(--medium-font-size);
+    font-weight: var(--bolder-font-weight);
+    font-family: 'Ibarra Real Nova', serif;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.frame-div {
+    width: 100%;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.code-frame {
+    margin: 2rem;
+}

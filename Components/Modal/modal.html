@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kotesh Mudila">
+    <meta name="description" content="Handy-UI documentation - Modal component">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/docs.css">
+    <link rel="stylesheet" href="/Components/Modal/modal.css">
+    <title>HandyUI : Modal</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Handy UI</h1>
+        </div>
+        <div class="main-links">
+            <a href="https://github.com/kotesh-arya"><img class="header-icon"
+                    src="https://img.icons8.com/windows/64/ffffff/github.png" /></a>
+            <a href="https://twitter.com/Kotesh_Mudila"><img class="header-icon"
+                    src="https://img.icons8.com/ios-glyphs/60/ffffff/twitter--v1.png" /></a>
+            <a href="https://www.linkedin.com/in/koteswara-rao-mudila-7aa740159/"><img class="header-icon"
+                    src="https://img.icons8.com/ios-glyphs/60/ffffff/linkedin.png" /></a>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="side-bar">
+            <ul>
+                <li>
+                    <h3>Get-started</h3>
+                </li>
+                <hr>
+                <li><a class="sidebar-item" href="/Get-Started/introduction.html">Introduction</a></li>
+                <li><a class="sidebar-item " href="/Get-Started/typography.html">Typography</a></li>
+                <li><a class="sidebar-item" href="/Get-Started/colors.html">Colours</a></li>
+                <li>
+                    <h3>Components</h3>
+                </li>
+                <hr>
+                <li><a class="sidebar-item" href="/Components/Avatar/avatar.html">Avatar</a></li>
+                <li><a class="sidebar-item " href="/Components/Alert/alert.html">Alert</a></li>
+                <li><a class="sidebar-item " href="/Components/Badge/badge.html">Badge</a></li>
+                <li><a class="sidebar-item " href="/Components/Button/button.html">Button</a></li>
+                <li><a class="sidebar-item " href="/Components/Card/card.html">Card</a></li>
+                <li><a class="sidebar-item " href="/Components/Image/image.html">Image</a></li>
+                <li><a class="sidebar-item " href="/Components/Input/input.html">Input</a></li>
+                <li><a class="sidebar-item" href="/Components/Slider/slider.html">Slider</a></li>
+                <li><a class="sidebar-item" href="/Components/Grid/grid.html">Grid</a></li>
+                <li><a class="sidebar-item" href="/Components/Navigation/navigation.html">Navigation</a></li>
+                <li><a class="sidebar-item " href="/Components/List/list.html">Lists</a></li>
+                <li><a class="sidebar-item link-active" href="#">Modal</a></li>
+                <li><a class="sidebar-item" href="/Components/Rating/rating.html">Rating</a></li>
+                <li><a class="sidebar-item" href="####">Toast</a></li>
+
+            </ul>
+        </div>
+        <section class="section-content">
+            <div class="section-title">
+                Modal
+            </div>
+            <div class="section-subtitle">
+                A modal is used to display redirection content , The use engagement is needed for accessing the content
+                behind the modal, either by filling it up or by clicking outside of it.
+            </div>
+            <hr>
+            <article>
+                <div class="example-div">
+                    <button class="modal-open-button btn-primary">Click to view the Modal</button>
+                    <div class="modal-container">
+                        <div class="modal-content">
+                            <img class="close-icon" src="/Assets/Images/icons8-close-60.png" alt="close-icon" srcset="">
+                            <div>
+                                <img class="hero-image" src="/Assets/Images/undraw_Mailbox_re_dvds.png"
+                                    alt="mail-box-image" srcset="">
+                            </div>
+                            <div class="modal-header"> Subscribe To our Newsletter</div>
+                            <div>
+                                <input class="modal-input" placeholder="Enter your Email" type="mail">
+                            </div>
+                            <div>
+                                <button class="sign-up-btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-frame">
+                    <iframe class="frame-div"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522close-icon%2522%2520src%253D%2522%252FAssets%252FImages%252Ficons8-close-60.png%2522%2520alt%253D%2522close-icon%2522%2520srcset%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522hero-image%2522%2520src%253D%2522%252FAssets%252FImages%252Fundraw_Mailbox_re_dvds.png%2522alt%253D%2522mail-box-image%2522%2520srcset%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%2520Subscribe%2520To%2520our%2520Newsletter%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522modal-input%2522%2520placeholder%253D%2522Enter%2520your%2520Email%2522%2520type%253D%2522mail%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522sign-up-btn%2520btn-primary%2522%253ESign%2520up%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </article>
+            <hr>
+
+
+            <div class="section-footer">
+                <a class="section-footer-link" href="/Components/List/list.html">
+                    < Lists</a> <a class="section-footer-link" href="/Components/Rating/rating.html"> Rating >
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="modal.js"></script>
+</body>
+
+</html>
