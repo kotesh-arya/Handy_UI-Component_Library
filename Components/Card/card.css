@@ -30,13 +30,15 @@ section .example-div {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    width: 30rem;
+    width: 25rem;
     background-color: var(--white);
     text-align: left;
 }
-.horizontal-card-container{
+
+.horizontal-card-container {
     width: 100%;
 }
+
 .horizontal-card {
     display: flex;
     flex-direction: row;
@@ -45,12 +47,43 @@ section .example-div {
     background-color: var(--white);
     width: 50%;
 }
-.card-image{
+
+.card-image {
     width: 100%;
 }
-.horizontal-card-image{
-    width: 50%;
+
+.horizontal-card {
+    display: flex;
+    width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--white);
 }
+
+.horizontal-card-image-container {
+    width: 50%;
+    height: 100%;
+}
+
+.horizontal-card-image {
+    max-width: 100%;
+    height: 100%;
+}
+
+.horizontal-card-content {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2rem;
+    flex-direction: column;
+    text-align: left;
+}
+
+.horizontal-card-content-footer {
+    display: flex;
+    justify-content: start;
+}
+
 .vertical-card {
     width: 25rem;
 }
@@ -63,11 +96,22 @@ section .example-div {
     box-shadow: 3px 3px 20px 5px var(--black);
 }
 
-.text-overlay-card .overlay-title {
-    color: var(--white);
+.text-overlay-card {
     position: relative;
-    bottom: 4rem;
-    margin-bottom: -4rem;
+    height: 40rem;
+    box-shadow: 3px 3px 20px 5px var(--black);
+}
+
+.absolute-positioned-text {
+    color: var(--alert-error);
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 100%;
+    background-color: rgba(197, 185, 185, 0.657);
 }
 
 .image-icon-container {
@@ -90,20 +134,22 @@ section .example-div {
     margin-left: 5rem;
 }
 
-
-
 .top-header {
     margin: 0.5rem 0 0.5rem 0.5rem;
-    width: fit-content;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.vertical-card-title {
+    font-size: var(--larger-font-size);
+    font-weight: var(--bolder-font-weight);
 }
 
 .card-title {
     font-size: var(--larger-font-size);
     text-align: left;
-    margin: 1rem 0 1rem 1rem;
+    margin: 0rem 0 1rem 0rem;
     display: flex;
     align-items: center;
     width: fit-content;
@@ -128,7 +174,7 @@ section .example-div {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    margin: 0 5px 0 0 ;
+    margin: 0 5px 0 0;
 }
 
 .avatar-sm {
@@ -180,6 +226,7 @@ section .example-div {
     margin: 0.5rem;
     text-decoration: none;
 }
+
 .frame-div {
     width: 100%;
     border: 0;
