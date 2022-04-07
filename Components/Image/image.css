@@ -28,6 +28,8 @@ article.responsive-image-container {
 
 .rounded-image {
     height: 10rem;
+    width: 10rem;
+    object-fit: cover;
     border-radius: 50%;
 }
 
