@@ -70,15 +70,16 @@
 
 .btn-link {
     background-color: var(--primary-color);
-
-}
-
-.link-button {
-    text-decoration: none;
-    font-size: var(--medium-font-size);
     color: var(--white);
 }
 
+
+.link-button{
+    text-decoration: none;
+    font-size: var(--medium-font-size);
+    font-weight: var(--bolder-font-weight);
+    color: var(--white);
+}
 
 
 .btn-icon {

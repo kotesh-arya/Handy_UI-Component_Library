@@ -83,6 +83,7 @@ section .example-div {
 .horizontal-card-content-footer {
     display: flex;
     justify-content: start;
+    margin-top: 1rem;
 }
 
 .vertical-card {
@@ -217,7 +218,7 @@ section .example-div {
     display: flex;
     justify-content: left;
     width: fit-content;
-    padding: 0.5rem;
+    padding: 0.5rem 0rem;
 }
 .overlay-card-footer{
     margin: 0.5rem 0.5rem 0.5rem -1rem;
