@@ -11,7 +11,7 @@ Handy UI is a useful component library, helps you by reducing your efforts of de
 <link rel="stylesheet" href="https://handy-ui.netlify.app/css/components.css"> 
 ```
 
-Or paste the below given import statement at the first place of your CSS file.
+Or paste the below given import statement at the first place of your CSS file and use it right away.
 ``` css
 @import url("https://handy-ui.netlify.app/css/components.css");
 ```
