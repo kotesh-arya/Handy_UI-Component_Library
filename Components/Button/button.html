@@ -1,206 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kotesh Mudila" />
+    <meta
+      name="description"
+      content="Handy-UI documentation - Button component"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="/css/docs.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Kotesh Mudila">
-    <meta name="description" content="Handy-UI documentation - Button component">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/sidebar.css">
-    <link rel="stylesheet" href="/css/components.css">
-    <link rel="stylesheet" href="/css/docs.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HandyUI : Button</title>
+  </head>
 
-    <title> HandyUI : Button</title>
-</head>
-
-<body>
+  <body>
     <header class="header">
-        <div class="logo">
-            <h1>Handy UI</h1>
-        </div>
-        <div class="main-links">
-            <a href="https://github.com/kotesh-arya"><img class="header-icon"
-                    src="https://img.icons8.com/windows/64/ffffff/github.png" /></a>
-            <a href="https://twitter.com/Kotesh_Mudila"><img class="header-icon"
-                    src="https://img.icons8.com/ios-glyphs/60/ffffff/twitter--v1.png" /></a>
-            <a href="https://www.linkedin.com/in/koteswara-rao-mudila-7aa740159/"><img class="header-icon"
-                    src="https://img.icons8.com/ios-glyphs/60/ffffff/linkedin.png" /></a>
-        </div>
+      <div class="logo">
+        <h1>Handy UI</h1>
+      </div>
+      <div class="main-links">
+        <a href="https://github.com/kotesh-arya"
+          ><img
+            class="header-icon"
+            src="https://img.icons8.com/windows/64/ffffff/github.png"
+        /></a>
+        <a href="https://twitter.com/Codesh_"
+          ><img
+            class="header-icon"
+            src="https://img.icons8.com/ios-glyphs/60/ffffff/twitter--v1.png"
+        /></a>
+        <a href="https://www.linkedin.com/in/koteswara-rao-mudila-7aa740159/"
+          ><img
+            class="header-icon"
+            src="https://img.icons8.com/ios-glyphs/60/ffffff/linkedin.png"
+        /></a>
+      </div>
     </header>
     <main class="main-content">
-        <div class="side-bar">
-            <ul>
-                <li>
-                    <h2>Get-started</h2>
-                </li>
-                <hr>
-                <li><a class="sidebar-item" href="/Get-Started/introduction.html">Introduction</a></li>
-                <li><a class="sidebar-item " href="/Get-Started/typography.html">Typography</a></li>
-                <li><a class="sidebar-item" href="/Get-Started/colors.html">Colours</a></li>
-                <li>
-                    <h2>Components</h2>
-                </li>
-                <hr>
-                <li><a class="sidebar-item" href="/Components/Avatar/avatar.html">Avatar</a></li>
-                <li><a class="sidebar-item " href="/Components/Alert/alert.html">Alert</a></li>
-                <li><a class="sidebar-item " href="/Components/Badge/badge.html">Badge</a></li>
-                <li><a class="sidebar-item link-active" href="#">Button</a></li>
-                <li><a class="sidebar-item" href="/Components/Card/card.html">Card</a></li>
-                <li><a class="sidebar-item" href="/Components/Image/image.html">Image</a></li>
-                <li><a class="sidebar-item" href="/Components/Input/input.html">Input</a></li>
-                <li><a class="sidebar-item" href="/Components/Slider/slider.html">Slider</a></li>
-                <li><a class="sidebar-item" href="/Components/Grid/grid.html">Grid</a></li>
-                <li><a class="sidebar-item" href="/Components/Navigation/navigation.html">Navigation</a></li>
-            </ul>
+      <div class="side-bar">
+        <ul>
+          <li>
+            <h2>Get-started</h2>
+          </li>
+          <hr />
+          <li>
+            <a class="sidebar-item" href="/Get-Started/introduction.html"
+              >Introduction</a
+            >
+          </li>
+          <li>
+            <a class="sidebar-item" href="/Get-Started/typography.html"
+              >Typography</a
+            >
+          </li>
+          <li>
+            <a class="sidebar-item" href="/Get-Started/colors.html">Colours</a>
+          </li>
+          <li>
+            <h2>Components</h2>
+          </li>
+          <hr />
+          <li>
+            <a class="sidebar-item" href="/Components/Avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li>
+            <a class="sidebar-item" href="/Components/Alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li>
+            <a class="sidebar-item" href="/Components/Badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li><a class="sidebar-item link-active" href="#">Button</a></li>
+          <li>
+            <a class="sidebar-item" href="/Components/Card/card.html">Card</a>
+          </li>
+          <li>
+            <a class="sidebar-item" href="/Components/Image/image.html"
+              >Image</a
+            >
+          </li>
+          <li>
+            <a class="sidebar-item" href="/Components/Input/input.html"
+              >Input</a
+            >
+          </li>
+          <li>
+            <a class="sidebar-item" href="/Components/Slider/slider.html"
+              >Slider</a
+            >
+          </li>
+          <li>
+            <a class="sidebar-item" href="/Components/Grid/grid.html">Grid</a>
+          </li>
+          <li>
+            <a
+              class="sidebar-item"
+              href="/Components/Navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+        </ul>
+      </div>
+      <section class="section-content">
+        <div class="section-title">Button</div>
+        <div class="section-subtitle">
+          Buttons are the soul of an interactive Web Application. Buttons allow
+          users to take actions, and make choices, with a single tap.
         </div>
-        <section class="section-content">
-            <div class="section-title">
-                Button
-            </div>
-            <div class="section-subtitle">
-                Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make
-                choices, with a single tap.
-            </div>
-            <hr>
-            <article>
-                <div class="article-title">
-                    Primary Button
-                </div>
-                <div class="article-subtitle">
-                    Primary buttons are high-emphasis, distinguished by their use of elevation and fill. They contain
-                    actions that are primary to your app. <br> To use these buttons use a class combination of <span class="highlight-text">btn</span> & <span class="highlight-text">btn-variant</span>
-                </div>
-                <div class="example-div">
-                    <button class="btn">DEFAULT</button>
+        <hr />
+        <article>
+          <div class="article-title">Primary Button</div>
+          <div class="article-subtitle">
+            Primary buttons are high-emphasis, distinguished by their use of
+            elevation and fill. They contain actions that are primary to your
+            app. <br />
+            To use these buttons use a class combination of
+            <span class="highlight-text">btn</span> &
+            <span class="highlight-text">btn-variant</span>
+          </div>
+          <div class="example-div">
+            <button class="btn">DEFAULT</button>
 
-                    <button class="btn btn-primary">PRIMARY</button>
+            <button class="btn btn-primary">PRIMARY</button>
 
-                    <button class="btn btn-secondary">SECONDARY</button>
+            <button class="btn btn-secondary">SECONDARY</button>
 
-                    <button class="btn btn-error">ERROR</button>
+            <button class="btn btn-error">ERROR</button>
 
-                    <button class="btn btn-success">SUCCESS</button>
-                </div>
-                <div class="code-frame">
-                    <iframe class="frame-div"
-                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253EDEFAULT%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESECONDARY%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-error%2522%253EERROR%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESUCCESS%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </article>
+            <button class="btn btn-success">SUCCESS</button>
+          </div>
+          <div class="code-frame">
+            <iframe
+              class="frame-div"
+              src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253EDEFAULT%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESECONDARY%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-error%2522%253EERROR%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESUCCESS%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </article>
 
-            <article>
-                <div class="article-title">
-                    Outline Button
-                </div>
-                <div class="article-subtitle">
-                    If you want a button without a background at all. Then replace
-                    <span class="highlight-text">btn-variant</span> with <span
-                        class="highlight-text">outline-variant</span>.
+        <article>
+          <div class="article-title">Outline Button</div>
+          <div class="article-subtitle">
+            If you want a button without a background at all. Then replace
+            <span class="highlight-text">btn-variant</span> with
+            <span class="highlight-text">outline-variant</span>.
+          </div>
+          <div class="example-div">
+            <button class="btn outline-button">DEFAULT</button>
 
+            <button class="btn outline-primary">PRIMARY</button>
 
-                </div>
-                <div class="example-div">
-                    <button class="btn outline-button">DEFAULT</button>
+            <button class="btn outline-error">ERROR</button>
 
-                    <button class="btn outline-primary">PRIMARY</button>
-
-                    <button class="btn outline-error">ERROR</button>
-
-                    <button class="btn outline-success">SUCCESS</button>
-                </div>
-                <div class="code-frame">
-                    <iframe class="frame-div"
-                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520outline-button%2522%253EDEFAULT%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253EERROR%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESUCCESS%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </article>
-            <article>
-                <div class="article-title">
-                    Link Button
-                </div>
-                <div class="article-subtitle">
-                    To equip link functionality to a buton, use <span class="highlight-text">btn-link</span> class.
-
-                </div>
-                <div class="example-div">
-                    <button class="btn btn-link">
-                        <a class="link-button" href="---path-link---">LINK</a>
-                    </button>
-                </div>
-                <div class="code-frame">
-                    <iframe class="frame-div"
-                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%250A%2520%2520%2520%253Ca%2520class%253D%2522link-button%2522%2520href%253D%2522---path-link---%2522%253ELINK%253C%252Fa%253E%250A%2520%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </article>
-            <article>
-                <div class="article-title">
-                    Icon Button
-                </div>
-                <div class="article-subtitle">
-                    Icon Buttons can be created, by using image as a child to parent button. Use the <span
-                        class="highlight-text">btn</span>
-                    class followed by <span class="highlight-text">btn-icon</span>.
-
-
-                </div>
-                <div class="example-div">
-                    <button class="btn btn-icon">
-                        <img src="https://img.icons8.com/material-rounded/24/ffffff/save.png" />
-                        <p>SAVE</p>
-                    </button>
-                </div>
-                <div class="code-frame">
-                    <iframe class="frame-div"
-                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-rounded%252F24%252Fffffff%252Fsave.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESAVE%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </article>
-            <article>
-                <div class="article-title">
-                    Floating Action Button
-                </div>
-                <div class="article-subtitle">
-                    Icon Buttons can be created, by using icon as a child to parent button. Use the <span
-                        class="highlight-text">btn</span>
-                    class followed by <span class="highlight-text">btn-floating</span>.
-
-
-                </div>
-                <div class="example-div float-btn-div">
-                    <button class="btn btn-floating">
-                        <i class="fa fa-download fa-2x icon" aria-hidden="true"></i>
-                    </button>
-                    <button class="btn btn-floating">
-                        <i class="fa fa-print fa-2x icon" aria-hidden="true"></i>
-                    </button>
-                    <button class="btn btn-floating">
-                        <i class="fa fa-bookmark fa-2x icon" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <div class="code-frame">
-                    <iframe class="frame-div"
-                        src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-floating%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-download%2520fa-2x%2520icon%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-floating%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-print%2520fa-2x%2520icon%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-floating%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bookmark%2520fa-2x%2520icon%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </article>
-            <div class="section-footer">
-                <a class="section-footer-link" href="/Components/Badge/badge.html">
-                    < Badge</a> <a class="section-footer-link" href="/Components/Card/card.html"> Card >
-                </a>
-            </div>
-        </section>
+            <button class="btn outline-success">SUCCESS</button>
+          </div>
+          <div class="code-frame">
+            <iframe
+              class="frame-div"
+              src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520outline-button%2522%253EDEFAULT%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253EERROR%253C%252Fbutton%253E%250A%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESUCCESS%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </article>
+        <article>
+          <div class="article-title">Link Button</div>
+          <div class="article-subtitle">
+            To equip link functionality to a buton, use
+            <span class="highlight-text">btn-link</span> class.
+          </div>
+          <div class="example-div">
+            <button class="btn btn-link">
+              <a class="link-button" href="---path-link---">LINK</a>
+            </button>
+          </div>
+          <div class="code-frame">
+            <iframe
+              class="frame-div"
+              src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%250A%2520%2520%2520%253Ca%2520class%253D%2522link-button%2522%2520href%253D%2522---path-link---%2522%253ELINK%253C%252Fa%253E%250A%2520%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </article>
+        <article>
+          <div class="article-title">Icon Button</div>
+          <div class="article-subtitle">
+            Icon Buttons can be created, by using image as a child to parent
+            button. Use the <span class="highlight-text">btn</span> class
+            followed by <span class="highlight-text">btn-icon</span>.
+          </div>
+          <div class="example-div">
+            <button class="btn btn-icon">
+              <img
+                src="https://img.icons8.com/material-rounded/24/ffffff/save.png"
+              />
+              <p>SAVE</p>
+            </button>
+          </div>
+          <div class="code-frame">
+            <iframe
+              class="frame-div"
+              src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-rounded%252F24%252Fffffff%252Fsave.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESAVE%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </article>
+        <article>
+          <div class="article-title">Floating Action Button</div>
+          <div class="article-subtitle">
+            Icon Buttons can be created, by using icon as a child to parent
+            button. Use the <span class="highlight-text">btn</span> class
+            followed by <span class="highlight-text">btn-floating</span>.
+          </div>
+          <div class="example-div float-btn-div">
+            <button class="btn btn-floating">
+              <i class="fa fa-download fa-2x icon" aria-hidden="true"></i>
+            </button>
+            <button class="btn btn-floating">
+              <i class="fa fa-print fa-2x icon" aria-hidden="true"></i>
+            </button>
+            <button class="btn btn-floating">
+              <i class="fa fa-bookmark fa-2x icon" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="code-frame">
+            <iframe
+              class="frame-div"
+              src="https://carbon.now.sh/embed?bg=rgba%28184%2C176%2C141%2C0%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-floating%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-download%2520fa-2x%2520icon%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-floating%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-print%2520fa-2x%2520icon%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-floating%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bookmark%2520fa-2x%2520icon%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </article>
+        <div class="section-footer">
+          <a class="section-footer-link" href="/Components/Badge/badge.html">
+            < Badge</a
+          >
+          <a class="section-footer-link" href="/Components/Card/card.html">
+            Card >
+          </a>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
